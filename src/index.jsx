@@ -1,11 +1,12 @@
 import '../assets/stylesheets/application.scss';
 
-// import React from "react";
+import React from "react";
 import ReactDOM from "react-dom";
 
 const Hello = () => {
-
+  return <h2>Hello yelloooo</h2>
 }
 
 const root = document.querySelector("#root");
-ReactDOM.render(<h1>Hello!</h1>, root);
+ReactDOM.render(<Hello />,root);
+
