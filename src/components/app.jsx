@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-
 import Gif from "./gif";
 import GifList from "./gifList";
 import SearchBar from "./searchBar";
